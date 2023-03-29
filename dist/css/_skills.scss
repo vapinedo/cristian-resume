@@ -1,0 +1,58 @@
+
+#skills {
+    background-color: $grisclaro;
+  }
+  div.container_skills {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    gap: 30px;
+    padding-bottom: 40px;
+  }
+  div.container_skills i {
+    color: #2B2A30;
+    font-size: 80px;
+  }
+  div.container_skills i p {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  div.container_skills i:nth-child(1):hover {
+    color: #E44D26;
+    transition: all .5s;
+  }
+  div.container_skills i:nth-child(2):hover  {
+    color: #264de4;
+    transition: all .5s;
+  }
+  div.container_skills i:nth-child(3):hover  {
+    color: #f0db4f;
+    transition: all .5s;
+  }
+  div.container_skills i:nth-child(4):hover  {
+    color: #7cc5d9;
+    transition: all .5s;
+  }
+  div.container_skills i:nth-child(5):hover  {
+    color: #f34f29;
+    transition: all .5s;
+  }
+  div.container_skills i:nth-child(6):hover  {
+    color: #FF7262;
+    transition: all .5s;
+  }
+  div.container_skills i:nth-child(7):hover  {
+    color: #00749C;
+    transition: all .5s;
+  }
+  div.container_skills i:nth-child(8):hover  {
+    color: #10793F;
+    transition: all .5s;
+  }
+  div.container_skills i:nth-child(9):hover  {
+    color: #CD6799;
+    transition: all .5s;
+  }
+  
+  /* Fin estilos seccion Skills*/

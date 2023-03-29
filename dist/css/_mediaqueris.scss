@@ -1,0 +1,105 @@
+/* Media queries */
+  
+  @media screen and (min-width: 600px) {
+    div.container_skills {
+      grid-template-columns: auto auto auto;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    div.container_img {
+      margin-bottom: 60px;
+    }
+    .section_header {
+      height: 1000px;
+    }
+  
+  }
+  @media screen and (min-width: 768px) {
+  
+    .section_header {
+      display: flex;
+      justify-content: space-around;
+    }
+    .contain-header {
+      display: flex;
+      flex-direction: row;
+      padding-top: 10px;
+    }
+    .welcome_image img {
+      width: 350px;
+      margin-right: 30px;
+    }
+    div.description {
+      font-size: 1.7rem;
+    }
+    .underline--magical {
+      font-size: 2.4rem;
+    }
+    .title_section {
+      text-align: left;
+    }
+    .contain {
+      width: 80%;
+      margin: 0 auto;
+    }
+    div.container_skills {
+      grid-template-columns: auto auto auto;
+    }
+    .contain_about {
+      padding: 30px 0;
+      display: grid;
+      grid-template-columns: auto 2fr;
+      text-align: left;
+      gap: 50px;
+    }
+    div.contain_about img {
+      margin: 0;
+    }
+    a.boton {
+      left: 0;
+      margin: 0;
+      bottom: -56px;
+    }
+    p.desc {
+      padding: 0;
+    }
+    #about_me {
+      height: 650px;
+    }
+    #skills {
+      height: 600px;
+    }
+    #portfolio {
+      height: auto;
+      padding-bottom: 30px;
+    }
+    .contenedor-contact {
+      display: grid;
+      grid-template-columns: 100px auto;
+      padding-top: 30px;
+    }
+  
+    div.social_media {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+   @media screen and (min-width: 1100px) {
+    .cards_items {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 20px;
+    }
+    #about_me {
+      height: 600px;
+    }
+    .welcome_image img {
+      width: 400px;
+    }
+    .contenedor-contact {
+      grid-template-columns: 100px 700px;
+      justify-content: center;
+    }
+  
+  }
